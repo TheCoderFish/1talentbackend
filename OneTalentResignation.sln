@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneTalentResignation", "OneTalentResignation\OneTalentResignation.csproj", "{CD0CA0A3-9664-489E-957D-928231EDDC81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6} = {1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8} = {04781CD3-E2A4-4E3F-8CC7-172992776BD8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneTalentResignation.BLL", "OneTalentResignation.BLL\OneTalentResignation.BLL.csproj", "{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FFEB315A-605E-4118-9FB4-E9F16DE446BB} = {FFEB315A-605E-4118-9FB4-E9F16DE446BB}
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8} = {04781CD3-E2A4-4E3F-8CC7-172992776BD8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneTalentResignation.DAL", "OneTalentResignation.DAL\OneTalentResignation.DAL.csproj", "{FFEB315A-605E-4118-9FB4-E9F16DE446BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8} = {04781CD3-E2A4-4E3F-8CC7-172992776BD8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneTalentResignation.DTO", "OneTalentResignation.DTO\OneTalentResignation.DTO.csproj", "{04781CD3-E2A4-4E3F-8CC7-172992776BD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneTalentResignation.TEST", "OneTalentResignation.TEST\OneTalentResignation.TEST.csproj", "{F428D83A-B37F-4A50-98F0-0BDDD7B9B8D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD0CA0A3-9664-489E-957D-928231EDDC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0CA0A3-9664-489E-957D-928231EDDC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0CA0A3-9664-489E-957D-928231EDDC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0CA0A3-9664-489E-957D-928231EDDC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D334659-0D6F-4A01-A54B-BA92A3ADD8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEB315A-605E-4118-9FB4-E9F16DE446BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEB315A-605E-4118-9FB4-E9F16DE446BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEB315A-605E-4118-9FB4-E9F16DE446BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEB315A-605E-4118-9FB4-E9F16DE446BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04781CD3-E2A4-4E3F-8CC7-172992776BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F428D83A-B37F-4A50-98F0-0BDDD7B9B8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F428D83A-B37F-4A50-98F0-0BDDD7B9B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F428D83A-B37F-4A50-98F0-0BDDD7B9B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F428D83A-B37F-4A50-98F0-0BDDD7B9B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A5F25B-2A54-4147-B301-88EA70C36CB5}
+	EndGlobalSection
+EndGlobal
